@@ -1,0 +1,95 @@
+
+
+
+.ArtistTransform
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.TRANSFORM_TEXT
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+}
+
+.TRANSFORM_TEXT b
+{
+    width: 220px;
+    font-family: "Gobold";
+    font-size: 40px;
+}
+
+.TRANSFORM_TEXT p
+{
+    font-weight: 700;
+    width: 320px;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+}
+
+.TRANSFORM_TEXT .TRANSFORM_CITIES
+{
+   display: flex;
+   gap: 10px;
+}
+
+
+#underline
+{
+    text-decoration: underline wavy;
+}
+
+.TRANSFORM_TEXT .TRANSFORM_CITIES h3
+{
+    font-size: 70px;
+    font-family: "Gobold";
+}
+
+.TRANSFORM_TEXT .TRANSFORM_CITIES h4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-family: "Gobold";
+    font-weight: bold;
+}
+
+
+.TRANSFORM_Artist3 p
+{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Media Query */
+@media (width <= 1250px)  
+{
+
+.ArtistTransform
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.TRANSFORM_Artist2 img 
+{
+    width: 100%;
+}
+
+.TRANSFORM_Artist3 img 
+{
+    width: 100%;
+}
+
+}

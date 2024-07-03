@@ -1,0 +1,140 @@
+
+
+
+
+.Sherosection
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Blog
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Blog p 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 0;
+}
+
+.Blog p::after 
+{
+    content: "";
+    height: 3px;
+    width: 10px;
+    background-color: #161511;
+    display: block;
+}
+
+.firstartist img 
+{
+    width: 500px;
+}
+
+.sissorsComb img
+{
+      width: 450px;
+}
+
+.special 
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+
+.sissorsComb button
+{
+    font-weight: 700;
+    color: #fff;
+    background-color: #161511;
+    border: none;
+    padding: 10px 30px 10px 20px;
+    margin-left: 60px;
+}
+
+.sissorsComb p 
+{
+   font-weight: 700;
+   text-decoration-line: underline;
+   font-size: 14px;
+}
+
+.sissorsComb b
+{
+  line-height: 15px;  
+}
+
+
+.sissorsComb button img
+{
+    width: 40px;
+}
+
+
+
+
+
+#arrow
+  {
+      animation: arrow 3s .5s ease-in-out infinite;
+      opacity: 0;
+  }
+  
+  
+  @keyframes arrow {
+      0%{ 
+          opacity: 1;
+          transform: none;
+      }
+      50%{
+          opacity: .8;
+          transform: scale(.8);
+      }
+      100%{
+          opacity: 1;
+          transform: none;
+      }
+  }
+
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+
+    .Sherosection
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firstartist img 
+{
+    width: 100%;
+}
+
+.sissorsComb img
+{
+      width: 100%;
+}
+
+
+.Blog
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+}

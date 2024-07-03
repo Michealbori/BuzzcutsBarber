@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+.footer
+{
+    background-color: #252525;
+    color: #fff;
+}
+
+
+
+.footerNav
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 40px;
+    font-family: "Gobold";
+    color: #fff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.footerNav a
+{    color: #fff;   
+    text-decoration: overline wavy; 
+ 
+}
+
+.Shaving
+{
+    opacity: 0.5;
+}
+
+
+.AncientForm
+{
+    background: transparent;
+    border: 1px solid #818181;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.AncientForm p
+{
+    font-weight: 500;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.AncientForm b
+{
+    font-size: 50px;
+    font-family: "Gobold";
+}
+
+.AncientForm img 
+{
+        display: flex;
+        justify-content: center;
+}
+
+.AncientForm span
+{
+    display: flex;
+    gap: 10px;
+}
+
+.secondRowNav
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLink
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 120px;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+.Terms
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.Terms a
+{
+    color: #fff;
+    text-decoration: overline wavy;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (width <= 1250px)
+
+{
+    .footerNav
+    {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-left: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .secondRowNav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px ;
+}
+
+.AncientForm
+{
+    width: 100%;
+}
+
+
+.navLink
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 70px;
+    line-height: 40px;
+}
+
+
+.Terms
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    color: #fe6d2c;
+}
+
+
+}

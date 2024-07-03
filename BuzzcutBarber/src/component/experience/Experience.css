@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Gobold";
+    src: url(/public/fonts/Gobold High Bold.otf);
+}
+
+
+
+.Experience
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ExperienceImg img 
+{
+    width: 400px;
+}
+
+.ExperienceText
+{
+    text-align: start;
+    align-items: center;
+    text-wrap: wrap;
+    width: 30%;
+}
+
+.ExperienceText b
+{
+    font-family: "Gobold";
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.ExperienceText p
+{
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.ExperienceText button
+{
+    background-color: transparent;
+    border: none;
+    font-weight: 800;
+}
+
+.ExperienceText button img
+{
+   width: 40px;
+}
+
+.ExperienceSissor img
+{
+     width: 300px;
+}
+
+
+
+#sissor
+  {
+      animation: sissor 3s .5s ease-in-out infinite;
+      opacity: 0;
+  }
+  
+  
+  @keyframes sissor {
+      0%{ 
+          opacity: 1;
+          transform: none;
+      }
+      50%{
+          opacity: .8;
+          transform: scale(.8);
+      }
+      100%{
+          opacity: 1;
+          transform: none;
+      }
+  }
+
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+
+
+
+    .Experience
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 60px;
+    }
+
+    .ExperienceImg img 
+    {
+        width: 100%;
+    }
+
+    
+.ExperienceText button img
+{
+   width: 40px;
+}
+
+.ExperienceSissor img
+{
+     width: 70%;
+}
+
+
+.ExperienceText
+{
+    text-align: start;
+    align-items: center;
+    text-wrap: wrap;
+    width: 90%;
+    margin-top: 50px;
+}
+
+
+
+.ExperienceText b
+{
+    font-family: "Gobold";
+    font-size: 50px;
+    line-height: 50px;
+}
+
+}
