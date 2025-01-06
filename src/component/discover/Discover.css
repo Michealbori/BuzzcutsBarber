@@ -1,0 +1,112 @@
+
+
+.Discover h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline wavy;
+    font-weight: 700;
+    font-family: "Gobold";
+}
+
+
+.Review
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+
+.Review p
+{
+     font-weight: 700;
+}
+   /* footer backkground color #252525
+   footer text color rgba(37,37,37,255) */
+
+
+.Review span
+{
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 8px;
+}
+.Review span h6
+{
+        opacity: 0.5;
+}
+
+.FashionBlogger
+{
+    background-color: #fff4e6;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.FashionBlogger h5
+{
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.ModelInfluencer
+{
+    background-color: #fff4e6;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ModelInfluencer h5
+{
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+
+.SpeakerInfluencer
+{
+    background-color: #fff4e6;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.SpeakerInfluencer h5
+{
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+
+/* Media Query */
+@media (width <= 1250px)  
+{
+    
+/* .Discover h2
+{
+font-size: 20px;
+} */
+
+.Review
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.ModelInfluencer
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}

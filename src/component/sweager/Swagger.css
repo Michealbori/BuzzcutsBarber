@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Bion";
+    src: url(/public/fonts/Bion-BoldCond.otf);
+}
+
+.Swagger
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.UnleaseText 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+
+.Bottle img
+{
+    width: 650px;
+}
+
+.UnleaseText h3 
+{
+    font-family: "Bion";
+    text-decoration-line: underline;
+}
+
+.UnleaseText p 
+{
+    font-weight: 700;
+}
+
+.BuzzTreatment img 
+{
+    width: 400px;
+}
+
+.BuzzTreatment
+{
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .Transform
+{
+   writing-mode: vertical-lr;
+   /* text-orientation: sideways; */
+}
+
+.buzzcut
+{
+    padding-top: 150px;
+}
+
+/* Media Query */
+@media (width <= 1250px) 
+{
+
+    .Swagger
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .Bottle img
+{
+    width: 95%;
+}
+
+
+.BuzzTreatment img 
+{
+    width: 90%;
+    padding-top: 0;
+}
+
+
+.BuzzTreatment
+{
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buzzcut
+{
+    padding-top: 50px;
+}
+
+
+.UnleaseText 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+}

@@ -1,0 +1,17 @@
+.Logo img
+{
+    width: 150px;
+}
+
+.design
+{
+    font-weight: 700; 
+}
+
+.Start
+{
+    font-weight: 700;
+    color: #fff;
+    background-color: #161511;
+    padding: 10px 20px 10px 20px;
+}

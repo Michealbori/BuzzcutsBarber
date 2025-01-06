@@ -1,0 +1,113 @@
+@font-face 
+{
+    font-family:"Gobold";
+    src: url(/public/fonts/big_noodle_titling.ttf);
+}
+
+.HeroHeader
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 270px;
+    padding-top: 60px;
+}
+
+.HeroHeader h3
+{
+    font-family:"Gobold";
+    font-size: 60px;
+    font-weight: 900;
+}
+
+
+.salonService 
+{
+    display: flex;
+}
+
+.barbarsName
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 260px;
+    padding-right: 260px;
+    line-height: 10px;
+}
+
+.barbarsName b
+{
+    font-weight: 700;
+    font-size: 13px;
+
+}
+
+.barbarsName p 
+{
+    font-size: 15px;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.salonService h6
+{
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.salonService img 
+{
+    width: 20%;
+    height: 40%;
+}
+
+
+#unique
+{
+    margin-left: 30px;
+}
+
+#BARBERINO
+{
+    margin-left: 30px;
+}
+
+
+/* Media Query */
+@media (width <= 1250px) 
+
+{
+    
+.HeroHeader
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.barbarsName
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 10px;
+}
+
+
+.salonService img 
+{
+    width: 50%;
+    height: 40%;
+}
+
+
+}
