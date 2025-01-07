@@ -64,7 +64,7 @@ export default function Footer() {
                         </span>
 
                         <hr />
-                        <img src="public/FooterLogo.png" alt="Footer Logo" data-aos="zoom-in" />
+                        <img src="https://imgur.com/tjtoFty.png" alt="Footer Logo" data-aos="zoom-in" />
                    </div>
 
              </section>
@@ -126,15 +126,15 @@ export default function Footer() {
 
                       <section className="Terms">
                         <b>
-                            <a href="#">TERMS & CONDITIONS</a>
+                            <a href="https://x.com/m11sikat?s=21">TERMS & CONDITIONS</a>
                         </b>
 
                         <b>
-                            <a href="#">PRIVACY</a>
+                            <a href="https://x.com/m11sikat?s=21">PRIVACY</a>
                         </b>
                         
                         <b>
-                            <a href="#"> ALL RIGHT TO MICHEALBORI © 2024</a>
+                            <a href="https://x.com/m11sikat?s=21"> ALL RIGHT TO MICHEALBORI © 2024</a>
                         </b>
                       </section> 
 

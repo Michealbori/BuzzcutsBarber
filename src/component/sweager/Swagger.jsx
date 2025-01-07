@@ -19,7 +19,7 @@ useEffect(() => {
         <main className="Swagger">
                   
                   <section className="Bottle">
-                      <img src="public/BOTTLE.png" alt="BOTTLE" />
+                      <img src="https://imgur.com/v8UJ379.png" alt="BOTTLE" />
                   </section>
 
                   <section className="UnleaseText">
@@ -37,7 +37,7 @@ useEffect(() => {
                     <b className="buzzcut"  data-aos="zoom-in-down">YOURSELF WITH THE BUZZCUTS </b>
                          <div>
                          <b className="Transform" data-aos="zoom-in-right"> TRANSFORM </b>
-                               <img src="public/cream.jpg" alt="Cream" data-aos="zoom-in" />
+                               <img src="https://imgur.com/AOQQyn9.jpg" alt="Cream" data-aos="zoom-in" />
                          </div>
                        
                   </section>

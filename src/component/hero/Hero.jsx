@@ -20,7 +20,7 @@ export default function Hero() {
               </div>
 
               <div className="salonService">
-                    <img src="public/Chair.png" alt="chair" className="animate__animated animate__pulse"/>
+                    <img src="https://imgur.com/junCKNN.png" alt="chair" className="animate__animated animate__pulse"/>
                     <h6>
                         SALOON SERVICE <br />
                        <span id="BARBERINO">BARBERINO</span>  <br />

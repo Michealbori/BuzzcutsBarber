@@ -1,9 +1,5 @@
 import "/src/component/groome/Groome.css";
 
-
-
-
-
 export default function Groome()
 {
     return(
@@ -11,12 +7,12 @@ export default function Groome()
             <section className="GROOMING_ULTIMATE">
             <h4>THE ULTIMATE MEN'S GROOMING</h4>
             <p>Our private service will beat the doubt.</p>
-            <button> Order our product <img src="public/White arrow.png" alt="arrow" /></button>
+            <button> Order our product <img src="https://imgur.com/kRJ1nqY.png" alt="arrow" /></button>
             </section>
 
             <section className="GROOMING_BARBER">
                         <b>
-                              GROOME <img src="public/SissorHand.png" alt="SissorHand" id="sissor"/>
+                              GROOME <img src="https://imgur.com/dgNiGcr.png" alt="SissorHand" id="sissor"/>
                             WITH THE BEST BARBER
                         </b>
             </section>

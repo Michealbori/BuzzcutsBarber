@@ -23,16 +23,16 @@ export default function Sherosection() {
           </section>
 
           <section className="firstartist" data-aos="zoom-in-up">
-                     <img src="public/Artist 1.png" alt="Artist 1" />
+                     <img src="https://imgur.com/5ZnJMQE.png" alt="Artist 1" />
           </section>
 
           <section className="sissorsComb">
-                  <img src="public/CombSissors.png" alt="CombSissors" />
+                  <img src="https://imgur.com/y9scNu0.png" alt="CombSissors" />
                   <div className="special">
                     <b> OUR <br /> SPECIAL </b>
                     <p> HAIRCUTS </p>
                   </div>
-                  <button> BOOK AN APPOINTMENT <img src="public/White arrow.png" alt="arrow" id="arrow"/> </button>
+                  <button> BOOK AN APPOINTMENT <img src="https://imgur.com/kRJ1nqY.png" alt="arrow" id="arrow"/> </button>
           </section>
 
         </main>

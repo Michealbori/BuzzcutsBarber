@@ -7,7 +7,8 @@ export default function Header(){
                      
 <nav class="navbar navbar-expand-lg">
   <div class="container">
-    <a class=" Logo navbar-brand animate__animated animate__backInDown" href="#"> <img src="public/BUZZCUTS LOGO.png" alt="Logo" /> </a>
+    <a class=" Logo navbar-brand animate__animated animate__backInDown" href="#"> <img src="https://i.imgur.com/uikJM0G.jpg" alt="Logo" />
+    </a>
     <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

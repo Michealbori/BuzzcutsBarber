@@ -31,13 +31,13 @@ export default function Transform()
 
 
                   <section className="TRANSFORM_Artist2">
-                                   <img src="public/Artist 2.png" alt="Artist 2" />
+                                   <img src="https://imgur.com/bJjXSyW.png" alt="Artist 2" />
                   </section>
 
 
 
                 <section className="TRANSFORM_Artist3">
-                          <img src="public/ARTIST 3.png" alt="ARTIST 3" />
+                          <img src="https://imgur.com/ptFAbHX.png" alt="ARTIST 3" />
                           <p> NATURAL SKINCARE </p>
                 </section>
         </main>
